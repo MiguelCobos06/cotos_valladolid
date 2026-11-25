@@ -1,0 +1,6 @@
+{
+  "name": "Siete Cotos · Valladolid",
+  "description": "Cotos residenciales en Valladolid, Yucatán. Primera etapa Chichikán a $4,950 MXN/m².",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

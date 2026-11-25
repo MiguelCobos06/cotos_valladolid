@@ -1,0 +1,660 @@
+<!DOCTYPE html><html lang="es" class="scroll-smooth"><head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cotos Residenciales Valladolid — Dirección Artística</title>
+  <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            'canvas': '#FAF8F5',
+            'canvas-warm': '#F1ECE2',
+            'ink': '#161817',
+            'ink-muted': '#575650',
+            'hairline': '#DDD6C7',
+            'cenote': '#0F292E',
+            'on-cenote': '#FAF8F5',
+            'terracotta': '#8C5319',
+            'on-terracotta': '#FFFFFF'
+          },
+          fontFamily: {
+            'serif-art': ['"Cormorant Garamond"', 'Georgia', 'serif'],
+            'sans-art': ['"Plus Jakarta Sans"', 'sans-serif'],
+            'mono-art': ['"JetBrains Mono"', 'monospace']
+          }
+        }
+      }
+    };
+  </script>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&amp;family=JetBrains+Mono:wght@400;500&amp;family=Plus+Jakarta+Sans:wght@400;500;600&amp;display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=block" rel="stylesheet">
+  <style>
+    .material-symbols-outlined {
+      display: inline-block;
+      width: 1em;
+      height: 1em;
+      line-height: 1 !important;
+      box-sizing: content-box;
+      overflow: hidden;
+      white-space: nowrap;
+      direction: ltr;
+      vertical-align: middle;
+    }
+    @media (prefers-reduced-motion: reduce) {
+      html { scroll-behavior: auto !important; }
+      *, *::before, *::after { transition-duration: 0.01ms !important; animation-duration: 0.01ms !important; }
+    }
+  </style>
+</head>
+<body class="bg-canvas text-ink font-sans-art antialiased min-h-screen flex flex-col">
+
+  <!-- Whisper-quiet Editorial Header -->
+  <header class="sticky top-0 z-40 bg-canvas border-b border-hairline">
+    <div class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between gap-6">
+      <a href="#inicio" class="inline-flex items-center gap-3 group" aria-label="Siete Cotos · Valladolid">
+        <svg viewBox="0 0 32 32" class="w-7 h-7 text-cenote shrink-0" fill="none" aria-hidden="true">
+          <rect x="2" y="2" width="28" height="28" rx="14" stroke="currentColor" stroke-width="1.25"></rect>
+          <path d="M9 22V14.5C9 10.634 12.134 7.5 16 7.5C19.866 7.5 23 10.634 23 14.5V22" stroke="currentColor" stroke-width="1.25"></path>
+          <path d="M12.5 22V15C12.5 13.067 14.067 11.5 16 11.5C17.933 11.5 19.5 13.067 19.5 15V22" stroke="currentColor" stroke-width="1.1"></path>
+          <circle cx="16" cy="16.5" r="1.4" fill="#8C5319"></circle>
+        </svg>
+        <span class="flex items-baseline gap-2">
+          <span class="font-serif-art text-xl sm:text-2xl tracking-wider uppercase text-ink">Siete Cotos</span>
+          <span class="hidden sm:inline font-mono-art text-[11px] tracking-widest uppercase text-ink-muted">· Valladolid</span>
+        </span>
+      </a>
+
+      <nav aria-label="Navegación" class="hidden lg:flex items-center gap-10 text-sm tracking-wide text-ink-muted">
+        <a href="#valladolid" class="hover:text-ink transition-colors">El lugar</a>
+        <a href="#moodboard" class="hover:text-ink transition-colors">Materia</a>
+        <a href="#cotos" class="hover:text-ink transition-colors">Siete cotos</a>
+        <a href="#primera-etapa" class="hover:text-ink transition-colors">Chichikán</a>
+        <a href="#plano" class="hover:text-ink transition-colors">Plano</a>
+        <a href="#contacto" class="hover:text-ink transition-colors">Contacto</a>
+      </nav>
+
+      <a href="#primera-etapa" class="font-mono-art text-xs tracking-wider text-cenote hover:underline whitespace-nowrap">
+        01 · $4,950/m²
+      </a>
+    </div>
+  </header>
+
+  <main class="flex-1 pb-20 lg:pb-0">
+
+    <!-- 01 · PORTADA CINEMATOGRÁFICA -->
+    <section id="inicio" class="relative min-h-[680px] lg:min-h-[780px] flex items-end overflow-hidden bg-ink">
+      <img src="https://lh3.googleusercontent.com/aida/ALJJyrAT5V-BBHirNl04hj4WiTZHpc9RI_MijENKQ6eCoORMFDJTvMagqwLIfxDMWqFs-52vk5wjXb6NDCSGfgdfQvQ0BHbb_Nmzc6EIMsBzuxSvBiwx-1_WJeh5r0inQRFNFq8lbPSUsWQijZqfocIScLJUFZG7K7ZVsjqPExpW0owkjIPg-ovaGOKMRB4-4SUbnhsXYZGW3OpRpl4UKPlYXvR5rQNgworFzerI2jRi8ZB_ytrDi0FZiNUWrGMgZsGY5-VLAoY" alt="Arcos de piedra caliza, palmas reales y espejo de agua al atardecer en Yucatán" class="absolute inset-0 w-full h-full object-cover" data-stitch-original-src="725320704439f89d===../../images/hero_storytelling_yucatan.jpg">
+      <div class="absolute inset-0 bg-gradient-to-t from-ink/95 via-ink/65 to-ink/20" aria-hidden="true"></div>
+
+      <div class="relative z-10 max-w-7xl w-full mx-auto px-6 py-14 lg:py-20 flex flex-col lg:flex-row lg:items-end justify-between gap-10">
+        <div class="max-w-3xl flex flex-col gap-4">
+          <span class="font-mono-art text-xs tracking-widest text-canvas uppercase">
+            Cotos Residenciales · Valladolid, Yucatán
+          </span>
+          <h1 class="font-serif-art text-5xl sm:text-6xl lg:text-7xl leading-none font-normal text-canvas text-balance">
+            Valladolid se descubre <em class="italic">con los sentidos</em>. Un terreno se elige con claridad.
+          </h1>
+        </div>
+
+        <div class="flex flex-col items-start lg:items-end gap-5 shrink-0">
+          <div class="lg:text-right">
+            <span class="block text-xs tracking-wider uppercase text-canvas-warm">Primera etapa · Chichikán</span>
+            <span class="font-mono-art text-2xl text-canvas tabular-nums">$4,950 MXN/m²</span>
+          </div>
+          <div class="flex items-center gap-6">
+            <a href="#primera-etapa" class="inline-flex items-center gap-3 px-7 py-3.5 rounded-full bg-canvas text-ink text-sm font-medium hover:bg-canvas-warm transition-colors">
+              <span>Conoce la primera etapa</span>
+              <span class="material-symbols-outlined text-base" aria-hidden="true">south</span>
+            </a>
+            <a href="#plano" class="text-sm text-canvas underline underline-offset-4 hover:text-canvas-warm">
+              Plano
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 02 · VALLADOLID EN IMÁGENES (SALA DE EXPOSICIÓN) -->
+    <section id="valladolid" class="max-w-7xl mx-auto px-6 py-16 lg:py-24 border-t border-hairline flex flex-col gap-16">
+      <div class="flex flex-col sm:flex-row sm:items-baseline justify-between gap-4">
+        <h2 class="font-serif-art text-4xl lg:text-5xl font-normal text-ink">
+          Valladolid <em class="italic text-ink-muted">en tres escenas</em>
+        </h2>
+        <a href="https://www.webcamsdemexico.com/webcams/en/valladolid-yucatan/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 text-sm text-cenote hover:underline">
+          <span class="material-symbols-outlined text-base" aria-hidden="true">videocam</span>
+          <span>Mira Valladolid ahora</span>
+        </a>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-12 gap-8 items-start">
+        <figure class="md:col-span-5 flex flex-col gap-3">
+          <img src="https://lh3.googleusercontent.com/aida/ALJJyrDeNvCMDAb5W--paCAbEfAdFTB_-CvBpdVK-lZa1xxCY9tIVAzRdkUZcX9CTRwFnsIxRpJNNWlxfJP90Aga5MgensdGYaig7jLP6ExugV4s1gVlFQIM-3OsJZ3lR2OdHXXx6jwtm1xFdPLtL8bfcPIR1oszssh6_GoycW3LR3cFSvrP_XoI9hui9WEKqCdWldJ5QG5-vKaxtOr1lbGPGPaFipY8bjlQFe04Ryr68oNFAfAHDA" alt="Patios y sombra en Valladolid" class="w-full h-96 lg:h-[480px] object-cover rounded-sm" data-stitch-original-src="3bd27ea62aba10b2===../../images/atmos_luz.jpg">
+          <figcaption class="flex items-baseline justify-between pt-2 border-t border-hairline">
+            <span class="font-serif-art text-2xl text-ink">I · Luz</span>
+            <span class="text-sm text-ink-muted">Patios y sombra</span>
+          </figcaption>
+        </figure>
+
+        <figure class="md:col-span-3 md:mt-20 flex flex-col gap-3">
+          <img src="https://lh3.googleusercontent.com/aida/ALJJyrBDex6wJCNAViz8b0Lb8oowYHktkKueeZScM4s8n4OfeeV6WSVr0VEvaOcO1sn2YM6CEry21r5o85_xbc5gAcl-Ni1QDPFYg2h0J90L2us50EoqIJy6EHFcc3mGsj_sTgAHkw7bsIZp0szSGA_1dsNzDIlXzjsoY6X48KdkolTlWuOQYXbTJ5WY6knG4YhZGVnmHV3BAGpuMBxdvHmM19hfRpVARNWo2l3r_MmE0wFcCF7HHkl-" alt="Hamaca tejida a mano en Yucatán" class="w-full h-72 lg:h-80 object-cover rounded-sm" data-stitch-original-src="76fa6c1c0c8145e3===../../images/atmos_oficio.jpg">
+          <figcaption class="flex items-baseline justify-between pt-2 border-t border-hairline">
+            <span class="font-serif-art text-2xl text-ink">II · Oficio</span>
+            <span class="text-sm text-ink-muted">Cultura viva</span>
+          </figcaption>
+        </figure>
+
+        <figure class="md:col-span-4 md:mt-8 flex flex-col gap-3">
+          <img src="https://lh3.googleusercontent.com/aida/ALJJyrBgyhl-chbuFU50LCEeDdjxWIGjOGwsvoKVAZ1vjl67YYIsRqCNutl78dI2ZYzJTRuTYgTvx8P-yITucwqQ_4yF_yzioBKvgd80-dyYgdjDd2eViCTAzKwoc9x5kYb23e4GKHBWmjTaK0JaZJbWQpn92zBrYHGQN3qR7N7Pp6PoXFLwUAA3GMlPff1mq9vlcyvMj0aoa_w1Hv5Q93u_r793Ac8L7MSEtob1NGLLSbiDV-MDq8M" alt="Cenote de aguas esmeralda" class="w-full h-96 object-cover rounded-sm" data-stitch-original-src="b829f356b2716c55===../../images/atmos_agua.jpg">
+          <figcaption class="flex items-baseline justify-between pt-2 border-t border-hairline">
+            <span class="font-serif-art text-2xl text-ink">III · Agua</span>
+            <span class="text-sm text-ink-muted">Paisaje regional</span>
+          </figcaption>
+        </figure>
+      </div>
+
+      <blockquote class="max-w-3xl mx-auto text-center py-8">
+        <p class="font-serif-art italic text-3xl lg:text-4xl leading-snug text-ink text-pretty">
+          «Valladolid se descubre despacio: en la luz de sus patios, en la piedra que guarda el día y en el agua que aparece entre la tierra».
+        </p>
+      </blockquote>
+    </section>
+
+    <!-- 03 · MOODBOARD & MATERIA (COLLAGE EDITORIAL) -->
+    <section id="moodboard" class="bg-canvas-warm border-y border-hairline py-16 lg:py-24">
+      <div class="max-w-7xl mx-auto px-6 flex flex-col gap-12">
+        <div class="flex flex-col lg:flex-row lg:items-end justify-between gap-6">
+          <div>
+            <h2 class="font-serif-art text-4xl lg:text-5xl font-normal text-ink">
+              Materia <em class="italic text-terracotta">e inspiración</em>
+            </h2>
+            <p class="text-sm text-ink-muted mt-2">
+              Arquitectura yucateca contemporánea como horizonte · La oferta actual es terreno.
+            </p>
+          </div>
+
+          <div class="flex flex-wrap items-center gap-6 text-sm">
+            <button type="button" data-mood-filter="all" class="mood-filter-btn text-ink underline underline-offset-4 font-medium">Todos</button>
+            <button type="button" data-mood-filter="arquitectura" class="mood-filter-btn text-ink-muted hover:text-ink">Arquitectura</button>
+            <button type="button" data-mood-filter="materiales" class="mood-filter-btn text-ink-muted hover:text-ink">Materiales</button>
+            <button type="button" data-mood-filter="paisaje" class="mood-filter-btn text-ink-muted hover:text-ink">Paisaje</button>
+          </div>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-12 gap-8 items-start">
+          <figure data-mood-cat="arquitectura" class="mood-card md:col-span-7 flex flex-col gap-3">
+            <img src="https://lh3.googleusercontent.com/aida/ALJJyrCLQdUNVfHcCibDjrA5dj4H3OM3xc6VU0qEEOK6SQNVI_943L_c0g_Hb5Gt6Ihi6JsjILW9XHvxQDCX07eKKSkjOWIvglck_IO5U4kNnBF6qsMsiYaATL1VGXNAqN6Vfi28GX6YaZQDMywwM0gRSXvfL3hkPlt-SODw9OpGFgtCwgYQCJ5iJBX_i-w79eH3ee4Rv0v_PFNch0qsQgVpJH--G-ujKSBBRt1NcTyvMDXWtRnlhyhQNfGeNUZ8Zg" alt="Pabellón contemporáneo en chukum y madera tzalam" class="w-full h-80 lg:h-[430px] object-cover rounded-sm" data-stitch-original-src="7a5744d69028adfa===../../images/vivienda_concepto.jpg">
+            <figcaption class="flex items-baseline justify-between text-sm">
+              <span class="font-serif-art text-xl text-ink">Pabellón abierto al jardín</span>
+              <span class="text-ink-muted">Concepto ilustrativo</span>
+            </figcaption>
+          </figure>
+
+          <figure data-mood-cat="materiales" class="mood-card md:col-span-5 md:mt-12 flex flex-col gap-3">
+            <img src="https://lh3.googleusercontent.com/aida/ALJJyrCVPHyJVB-lgRl74Nv3KFV1TYlJPSUacQqkIN2j7RU-kfhbdlkU7YGUqkw86r7dwhwvMUUnbaCkQ2gLBYUjTQinaavm-d-mDEZeijEG-l5V2NM56Ey_xIEsesFMKFMVSZLPyTKrOAJ2SGfcU-6ZoRuuLMukaztTBoca6d9gWTyVX6mLg9qKMWq6-A7ZZAH7pVRPF5mWk_onbAaCZnyS9qAbj3og4sHmgIcC8k1wV556NLPYetvLgL1u9NIGT9fI65SX-Q" alt="Paleta de piedra caliza, chukum, tzalam y henequén" class="w-full h-72 lg:h-80 object-cover rounded-sm" data-stitch-original-src="383cb3529d5e186b===../../images/mood_textura_materiales.jpg">
+            <figcaption class="flex items-baseline justify-between text-sm">
+              <span class="font-serif-art text-xl text-ink">Paleta táctil</span>
+              <span class="text-ink-muted">Caliza · Chukum · Tzalam</span>
+            </figcaption>
+          </figure>
+
+          <figure data-mood-cat="materiales" class="mood-card md:col-span-5 flex flex-col gap-3">
+            <img src="https://lh3.googleusercontent.com/aida/ALJJyrBEfua3Y7de2F3bl6qviXUXaVFuVS10m7IviktLDH8Tfq-MrFl4lXCceGQW5jeceuviCiivQnAOD3LVOcIBbcyQYG0x9ZhrruDm0WrFtVkGepJ5i2Q2KHprJQB6ovTMajuP9AmFED0IotxpWPDGzx8g6UkLqCKYN04cBPdJTrcb9c_UfhvSIiclsdG0kwe281PuDo1rTf_oWIebAeuJ9UsxXMRjTz48O2l_7taoVnw5OjF5hvY7H8r-hDZljnI" alt="Detalle de muro en chukum y celosía" class="w-full h-72 object-cover rounded-sm" data-stitch-original-src="a1fcb0d551926981===../../images/mood_chukum_piedra.jpg">
+            <figcaption class="flex items-baseline justify-between text-sm">
+              <span class="font-serif-art text-xl text-ink">Sombra y celosías</span>
+              <span class="text-ink-muted">Control solar</span>
+            </figcaption>
+          </figure>
+
+          <figure data-mood-cat="paisaje" class="mood-card md:col-span-7 flex flex-col gap-3">
+            <img src="https://lh3.googleusercontent.com/aida/ALJJyrDSmDmy6kO6zcJWtH3gk-HE4tDHlO7zf3Lhaxk5DcN5XPXGJ0CrYFeQFoGXBPGHu4hi_cmY3UH-aRPau0SFsTfEI01xG9OBSs_40pTjosSLmRXykf7qn9BL2qjhm1eTt4TU6ofrGO0V6IeIUjhoW_B1sXJXSpw0CmpXxj5Jlr4ymHSgZuLRHSzPa6rKVcGrFOg3vzSuhksG_a-KzlR20y20QhbVrGzwuHK3bxJke5TNU4Yyx2-3UT1Ik64xmFE" alt="Patio de agua y vegetación nativa" class="w-full h-72 lg:h-80 object-cover rounded-sm" data-stitch-original-src="a721642ff40b0dad===../../images/mood_patio_alberca.jpg">
+            <figcaption class="flex items-baseline justify-between text-sm">
+              <span class="font-serif-art text-xl text-ink">Patio de agua y selva baja</span>
+              <span class="text-ink-muted">Vegetación endémica</span>
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- 04 · LOS SIETE COTOS (GALERÍA DE CENOTES) -->
+    <section id="cotos" class="max-w-7xl mx-auto px-6 py-16 lg:py-24 flex flex-col gap-12">
+      <div class="flex flex-col md:flex-row md:items-baseline justify-between gap-4 border-b border-hairline pb-4">
+        <div>
+          <h2 class="font-serif-art text-4xl lg:text-5xl font-normal text-ink">
+            Siete cotos, <em class="italic text-ink-muted">siete cenotes</em>
+          </h2>
+          <p class="text-sm text-ink-muted mt-1">
+            Identidad editorial inspirada en cenotes de la región · Apertura por etapas.
+          </p>
+        </div>
+        <span class="font-mono-art text-xs text-ink-muted">$4,950 → $8,000 MXN/m²</span>
+      </div>
+
+      <!-- Featured Coto 01 + 6 Cenote Gallery -->
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
+        <a href="#primera-etapa" class="lg:col-span-5 group flex flex-col gap-4">
+          <div class="relative overflow-hidden rounded-sm">
+            <img src="https://lh3.googleusercontent.com/aida/ALJJyrDN50KXb-GvgDs1wraagyGK3ooxsKfWnDPfGwkGbN1Tp96uPqR-W-OY9WPP7J-BI0fMRgmYfQ_obSo0WoZ8L46-oARfTzJcEntFY7TmGmpCL9kisxx3CdZ4ezi1yu_WoqKWbySoVs5bAgJGQYAUNqxtlARH1IdEZ8nW3_5xIB-OyLMp2zpFWzOuvpUMx8D3nHMByrpic_oehUvd9TZcf8v93-U8ZZEUzKuYoJmVm-jefMaaoK_NoQNmsNg" alt="Cenote Chichikán en Yucatán" class="w-full h-96 lg:h-[460px] object-cover group-hover:scale-105 transition-transform duration-500" data-stitch-original-src="fc0ba000b38f0cc5===../../images/cenote_chichikan.jpg">
+            <span class="absolute top-4 left-4 px-3 py-1 rounded-full bg-cenote text-on-cenote font-mono-art text-xs">
+              01 · Primera etapa
+            </span>
+          </div>
+          <div class="flex items-baseline justify-between pt-2 border-t border-hairline">
+            <span class="font-serif-art italic text-4xl text-cenote group-hover:text-terracotta transition-colors">Chichikán</span>
+            <span class="font-mono-art text-base text-ink">$4,950 MXN/m² · Explorar →</span>
+          </div>
+        </a>
+
+        <div class="lg:col-span-7 grid grid-cols-2 sm:grid-cols-3 gap-x-6 gap-y-8">
+          <figure class="flex flex-col gap-2">
+            <img src="https://lh3.googleusercontent.com/aida/ALJJyrD7-puBlNMHp9_El-e6h7UNZwpau1cnCWbxPdznzyyZrsNBz4hnXAQ3DaUkga22eN_PDqWfMLC0oclGSDLQUIB8aLCO1Wwj1zBuKptiJmWlFadQhIh9KmuNs0EnYlAIvi4yZBguf4mju-iJb8UGgzuJvniT3X3Tfg-X5QzBTSM79molkdqn6eVKqD7Wcf5aNOdQeHosqs-FkIEeVNAKuEYKriOUIA3tHCxRDFIubgM3x-dWW-Dd" alt="Cenote Nool" class="w-full h-48 object-cover rounded-sm" data-stitch-original-src="5d81ef082275f1a0===../../images/cenote_nool.jpg">
+            <figcaption class="flex items-baseline justify-between pt-1.5 border-t border-hairline">
+              <span class="font-serif-art text-xl text-ink">02 · Nool</span>
+              <span class="text-xs text-ink-muted">Próximamente</span>
+            </figcaption>
+          </figure>
+
+          <figure class="flex flex-col gap-2">
+            <img src="https://lh3.googleusercontent.com/aida/ALJJyrCPdQ3zk9EZq-7POOPM-guxuOrBqQtIvSEMsH3OpsvmPNboBn1R08pPr27ysnwbOLGwS6T3oAJtD-cR7IHlxyhcNggZgRv8TKALMECq7PWq79VkslRCLUXhLoXXzUmp7_x432f30nL3bWZx3rj2TzEjVBUNpcJzVqdR9FVrwuOg56doRWBXmZgzHF4EoyqfcCZxCDdWsciG5Lt__useKGKFVBDiFr2HqqY3TXSTpZd-QQB1CBlDMg" alt="Cenote Oxmán" class="w-full h-48 object-cover rounded-sm" data-stitch-original-src="42ee19850596bb35===../../images/cenote_oxman.jpg">
+            <figcaption class="flex items-baseline justify-between pt-1.5 border-t border-hairline">
+              <span class="font-serif-art text-xl text-ink">03 · Oxmán</span>
+              <span class="text-xs text-ink-muted">Próximamente</span>
+            </figcaption>
+          </figure>
+
+          <figure class="flex flex-col gap-2">
+            <img src="https://lh3.googleusercontent.com/aida/ALJJyrCI75jTBguyC7U8iFNXWqSPs3wQDxdlX0ySciYIqoeqmhwrv9Pc9ZrtgbUjKVttbeSAhmi_19mO4stXfFDX_9DAPH4XH5WEIDLN4eZl_gBbUagWtEqdV0y6r36up2QJsvS6Q6FTPRmoveTVB0ZCHKgeX8gAMShcf7hSxHFM-3ZkAQmXQ9XJby2Cy7807SA-9-96-KTgs7IwAge-JlfgedeZojFcPChhWqP8j-zcAsDCmJO6-wC86gtl" alt="Cenote Suytún" class="w-full h-48 object-cover rounded-sm" data-stitch-original-src="633df78376548e3d===../../images/cenote_suytun.jpg">
+            <figcaption class="flex items-baseline justify-between pt-1.5 border-t border-hairline">
+              <span class="font-serif-art text-xl text-ink">04 · Suytún</span>
+              <span class="text-xs text-ink-muted">Próximamente</span>
+            </figcaption>
+          </figure>
+
+          <figure class="flex flex-col gap-2">
+            <img src="https://lh3.googleusercontent.com/aida/ALJJyrB99zg4b409A2sJFgv4q3PymcVyY7FizEZqw3ciHeVFyQx87FmWw_OU-mJMd4VXyo4pRbgx3aGvz0UrsE2a7pTUG1CXqDLKKveUAV5o6drmHtPC-Q-Kv99bybQk3rO5mxJjN1WESDjFnM6zXnskpU12mfb0zfUxjZDElKEeI3Uhv1z_YAK3g9quZqYOuL-10yaDzyzQ89JdXEbEehZM1sO7XuthuDhUUAxrLNYHvlCUACl-hg" alt="Cenote Toh" class="w-full h-48 object-cover rounded-sm" data-stitch-original-src="a0e1e3f3d8627ea3===../../images/cenote_toh.jpg">
+            <figcaption class="flex items-baseline justify-between pt-1.5 border-t border-hairline">
+              <span class="font-serif-art text-xl text-ink">05 · Toh</span>
+              <span class="text-xs text-ink-muted">Próximamente</span>
+            </figcaption>
+          </figure>
+
+          <figure class="flex flex-col gap-2">
+            <img src="https://lh3.googleusercontent.com/aida/ALJJyrA8PQagz4e-ST8pZGEhNS_fkv8YUZzC1zheHrLTNmWF2f4pknm2wQ_HmjlI8Q47W6KtOGisYDIgA1Oc8Ep5VuCm7beqL27SfaDecTsc2sQQvZWhrMVYHmY-bPo-wdtwyfSDnsmb8eklydFHmyp-apDPmO_RbAXlSsjemTGnLel02vVp0Ik2-J7TDXYbDkriPWAhgJixu8-2NVW-r6kGljshp7WNKkygCO_MUQWJanC9KCZ6dPgQ2c1r" alt="Cenote Saamal" class="w-full h-48 object-cover rounded-sm" data-stitch-original-src="0622262c81e4eb5f===../../images/cenote_saamal.jpg">
+            <figcaption class="flex items-baseline justify-between pt-1.5 border-t border-hairline">
+              <span class="font-serif-art text-xl text-ink">06 · Saamal</span>
+              <span class="text-xs text-ink-muted">Próximamente</span>
+            </figcaption>
+          </figure>
+
+          <figure class="flex flex-col gap-2">
+            <img src="https://lh3.googleusercontent.com/aida/ALJJyrD97ChW17SgefZSPB1xCf-NnsLefjeUq5Phw0Zng7xIkpUM-E2MfoFQ7NXG0jaBeM_eWfkbR6bDEFtnNxFjoNZ1N_Xaskkr6d9cJaenGBm6ZOuCdqMCwlOOE7JNdDFcgwJtKm2D9gcIU6tXofcMTzWUzbsjHFp88pHwd0QmqzmAFjrRztenSqJKkqPU0rTXEr35XHII1SoV4FHHOijLpRDhbVByXbimWd_iQPqlqUye_l4wB8il" alt="Cenote Zací" class="w-full h-48 object-cover rounded-sm" data-stitch-original-src="6b7567c6d0dc88f7===../../images/cenote_zaci.jpg">
+            <figcaption class="flex items-baseline justify-between pt-1.5 border-t border-hairline">
+              <span class="font-serif-art text-xl text-ink">07 · Zací</span>
+              <span class="text-xs text-ink-muted">Próximamente</span>
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- 05 · COTO 01 CHICHIKÁN (COTIZADOR DE GALERÍA) -->
+    <section id="primera-etapa" class="bg-canvas-warm border-y border-hairline py-16 lg:py-24">
+      <div class="max-w-7xl mx-auto px-6 flex flex-col gap-12">
+        <div class="flex flex-col lg:flex-row lg:items-end justify-between gap-6">
+          <div>
+            <h2 class="font-serif-art text-4xl lg:text-5xl font-normal text-ink">
+              Coto 01 · <em class="italic text-cenote">Chichikán</em>
+            </h2>
+            <p class="text-sm text-ink-muted mt-2">
+              Elige un lote para calcular su valor exacto a $4,950 MXN/m².
+            </p>
+          </div>
+
+          <div class="flex items-center gap-6 text-sm">
+            <button type="button" data-filter="all" class="lot-filter-btn text-ink underline underline-offset-4 font-medium">Todos (6)</button>
+            <button type="button" data-filter="disponible" class="lot-filter-btn text-ink-muted hover:text-ink">Disponibles (5)</button>
+            <button type="button" data-filter="apartado" class="lot-filter-btn text-ink-muted hover:text-ink">Apartados (1)</button>
+          </div>
+        </div>
+
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start">
+          <div class="lg:col-span-7">
+            <div class="grid grid-cols-12 pb-3 border-b border-hairline text-xs uppercase tracking-wider text-ink-muted">
+              <span class="col-span-3">Lote</span>
+              <span class="col-span-3">Superficie</span>
+              <span class="col-span-3 text-right">Total MXN</span>
+              <span class="col-span-3 text-right">Estatus</span>
+            </div>
+            <div id="lot-rows" class="divide-y divide-hairline"></div>
+          </div>
+
+          <aside aria-label="Especificación del lote" class="lg:col-span-5 lg:pl-10 lg:border-l border-hairline lg:sticky lg:top-24 flex flex-col gap-6">
+            <div class="flex items-baseline justify-between">
+              <h3 id="ficha-title" class="font-serif-art text-3xl text-ink">Lote C1-04</h3>
+              <span id="ficha-status" class="font-mono-art text-xs text-cenote">Disponible</span>
+            </div>
+
+            <div class="grid grid-cols-2 gap-6 py-5 border-y border-hairline">
+              <div>
+                <span class="block text-xs text-ink-muted">Superficie</span>
+                <span id="ficha-area" class="font-mono-art text-xl text-ink tabular-nums">312.40 m²</span>
+              </div>
+              <div>
+                <span class="block text-xs text-ink-muted">Tarifa vigente</span>
+                <span class="font-mono-art text-xl text-ink tabular-nums">$4,950/m²</span>
+              </div>
+            </div>
+
+            <div class="flex items-baseline justify-between">
+              <span class="text-sm text-ink-muted">Valor total</span>
+              <span id="ficha-total" class="font-serif-art text-4xl text-terracotta tabular-nums">$1,546,380</span>
+            </div>
+
+            <div class="flex flex-col sm:flex-row gap-3 pt-2">
+              <a id="ficha-whatsapp" href="#contacto" class="flex-1 inline-flex items-center justify-center gap-2 px-6 py-3.5 rounded-full bg-terracotta text-on-terracotta text-sm font-medium hover:bg-ink transition-colors">
+                <span class="material-symbols-outlined text-base" aria-hidden="true">chat</span>
+                <span>Cotizar este lote</span>
+              </a>
+              <button id="copy-link-btn" type="button" class="inline-flex items-center justify-center gap-2 px-5 py-3.5 rounded-full border border-hairline text-ink text-sm hover:bg-canvas transition-colors">
+                <span class="material-symbols-outlined text-base" aria-hidden="true">link</span>
+                <span id="copy-link-label">Enlace</span>
+              </button>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <!-- 06 · VISTA GENERAL (PLANO TIPOGRÁFICO EN PENÚLTIMO LUGAR) -->
+    <section id="plano" class="max-w-7xl mx-auto px-6 py-16 lg:py-24 flex flex-col gap-12">
+      <div class="flex flex-col md:flex-row md:items-baseline justify-between gap-4">
+        <div>
+          <h2 class="font-serif-art text-4xl lg:text-5xl font-normal text-ink">
+            Vista general
+          </h2>
+          <p class="text-sm text-ink-muted mt-2">
+            Geometría de referencia · Toca un coto para consultar su etapa.
+          </p>
+        </div>
+
+        <div class="flex items-center gap-6 text-sm">
+          <button type="button" id="mode-landscape" class="text-ink underline underline-offset-4 font-medium">Paisaje</button>
+          <button type="button" id="mode-technical" class="text-ink-muted hover:text-ink">Técnico</button>
+        </div>
+      </div>
+
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+        <div class="lg:col-span-8">
+          <svg viewBox="0 0 820 520" class="w-full h-auto" role="img" aria-label="Plano de los siete cotos">
+            <rect id="plan-bg-landscape" x="0" y="0" width="820" height="520" fill="#F1ECE2"></rect>
+            <polygon points="120,110 380,35 740,195 660,395 495,465 340,340 120,220" fill="#FAF8F5" stroke="#575650" stroke-width="1.2"></polygon>
+            <line x1="175" y1="165" x2="625" y2="335" stroke="#DDD6C7" stroke-width="14" stroke-linecap="round"></line>
+
+            <g class="coto-node cursor-pointer" data-coto="06" role="button" tabindex="0" aria-label="Coto 06 Saamal">
+              <polygon points="275,95 365,125 320,210 230,175" fill="#FAF8F5" stroke="#575650" stroke-width="1.2"></polygon>
+              <text x="295" y="162" text-anchor="middle" fill="#161817" font-size="13" font-family="Cormorant Garamond, serif">06 · Saamal</text>
+            </g>
+            <g class="coto-node cursor-pointer" data-coto="02" role="button" tabindex="0" aria-label="Coto 02 Nool">
+              <polygon points="375,130 485,170 440,255 330,215" fill="#FAF8F5" stroke="#575650" stroke-width="1.2"></polygon>
+              <text x="410" y="197" text-anchor="middle" fill="#161817" font-size="13" font-family="Cormorant Garamond, serif">02 · Nool</text>
+            </g>
+            <g class="coto-node cursor-pointer" data-coto="01" role="button" tabindex="0" aria-label="Coto 01 Chichikán">
+              <polygon points="495,175 615,220 570,305 450,260" fill="#0F292E" stroke="#0F292E" stroke-width="1.5"></polygon>
+              <text x="535" y="236" text-anchor="middle" fill="#FAF8F5" font-size="14" font-family="Cormorant Garamond, serif" font-style="italic">01 · Chichikán</text>
+              <text x="535" y="254" text-anchor="middle" fill="#DDD6C7" font-size="10" font-family="JetBrains Mono, monospace">$4,950/m²</text>
+            </g>
+            <g class="coto-node cursor-pointer" data-coto="07" role="button" tabindex="0" aria-label="Coto 07 Zací">
+              <polygon points="180,205 270,240 225,325 140,285" fill="#FAF8F5" stroke="#575650" stroke-width="1.2"></polygon>
+              <text x="208" y="268" text-anchor="middle" fill="#161817" font-size="13" font-family="Cormorant Garamond, serif">07 · Zací</text>
+            </g>
+            <g class="coto-node cursor-pointer" data-coto="05" role="button" tabindex="0" aria-label="Coto 05 Toh">
+              <polygon points="280,245 365,278 320,362 235,328" fill="#FAF8F5" stroke="#575650" stroke-width="1.2"></polygon>
+              <text x="302" y="308" text-anchor="middle" fill="#161817" font-size="13" font-family="Cormorant Garamond, serif">05 · Toh</text>
+            </g>
+            <g class="coto-node cursor-pointer" data-coto="04" role="button" tabindex="0" aria-label="Coto 04 Suytún">
+              <polygon points="375,282 465,316 420,400 330,366" fill="#FAF8F5" stroke="#575650" stroke-width="1.2"></polygon>
+              <text x="398" y="346" text-anchor="middle" fill="#161817" font-size="13" font-family="Cormorant Garamond, serif">04 · Suytún</text>
+            </g>
+            <g class="coto-node cursor-pointer" data-coto="03" role="button" tabindex="0" aria-label="Coto 03 Oxmán">
+              <polygon points="475,320 570,356 515,442 430,404" fill="#FAF8F5" stroke="#575650" stroke-width="1.2"></polygon>
+              <text x="498" y="386" text-anchor="middle" fill="#161817" font-size="13" font-family="Cormorant Garamond, serif">03 · Oxmán</text>
+            </g>
+          </svg>
+        </div>
+
+        <div class="lg:col-span-4 flex flex-col gap-4 lg:pl-10 lg:border-l border-hairline">
+          <h3 id="map-coto-title" class="font-serif-art text-3xl text-ink">01 · Chichikán</h3>
+          <span id="map-coto-badge" class="font-mono-art text-xs text-cenote">Primera etapa · En venta</span>
+          <p id="map-coto-desc" class="text-sm text-ink-muted leading-relaxed">
+            Sector derecha arriba. Única etapa abierta con tarifa vigente de $4,950 MXN/m².
+          </p>
+          <a href="#primera-etapa" class="text-sm text-ink underline underline-offset-4 mt-2">
+            Ir al cotizador de lotes →
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- 07 · CONTACTO / CIERRE -->
+    <section id="contacto" class="bg-cenote text-on-cenote py-20 lg:py-28">
+      <div class="max-w-3xl mx-auto px-6 text-center flex flex-col items-center gap-8">
+        <h2 class="font-serif-art text-4xl sm:text-5xl lg:text-6xl font-normal text-on-cenote text-balance">
+          Ya conoces el lugar. <em class="italic">Conozcamos</em> tu próximo espacio.
+        </h2>
+        <p class="text-base text-canvas-warm max-w-xl">
+          Acompañamos tu elección por videollamada o WhatsApp, desde México o el extranjero.
+        </p>
+
+        <p id="wa-preview" class="font-mono-art text-xs text-on-cenote border-y border-hairline/30 py-4">
+          «Hola, me interesa el lote C1-04 del coto Chichikán, en Valladolid. ¿Podemos revisar disponibilidad y condiciones?»
+        </p>
+
+        <div class="flex flex-wrap items-center justify-center gap-4">
+          <a id="cta-whatsapp" href="https://wa.me/?text=Hola%2C%20me%20interesa%20el%20lote%20C1-04%20del%20coto%20Chichik%C3%A1n%2C%20en%20Valladolid." target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 px-7 py-3.5 rounded-full bg-terracotta text-on-terracotta text-sm font-medium hover:bg-ink transition-colors">
+            <span class="material-symbols-outlined text-base" aria-hidden="true">chat</span>
+            <span>Escribir por WhatsApp</span>
+          </a>
+          <a href="#contacto" class="inline-flex items-center gap-2 px-7 py-3.5 rounded-full border border-on-cenote/40 text-on-cenote text-sm hover:bg-ink/20 transition-colors">
+            <span class="material-symbols-outlined text-base" aria-hidden="true">video_call</span>
+            <span>Agendar videollamada</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="bg-canvas border-t border-hairline py-6">
+    <div class="max-w-7xl mx-auto px-6 flex flex-col sm:flex-row items-center justify-between gap-3 text-xs text-ink-muted">
+      <div class="inline-flex items-center gap-2.5">
+        <svg viewBox="0 0 32 32" class="w-5 h-5 text-cenote shrink-0" fill="none" aria-hidden="true">
+          <rect x="2" y="2" width="28" height="28" rx="14" stroke="currentColor" stroke-width="1.25"></rect>
+          <path d="M9 22V14.5C9 10.634 12.134 7.5 16 7.5C19.866 7.5 23 10.634 23 14.5V22" stroke="currentColor" stroke-width="1.25"></path>
+          <circle cx="16" cy="16.5" r="1.4" fill="#8C5319"></circle>
+        </svg>
+        <span class="tracking-wide uppercase text-ink">Siete Cotos · Valladolid</span>
+      </div>
+      <span class="font-mono-art">Primera etapa · $4,950 MXN/m²</span>
+    </div>
+  </footer>
+
+  <!-- Mobile Quick-Exit Bar -->
+  <div class="lg:hidden fixed bottom-0 inset-x-0 z-50 bg-canvas border-t border-hairline px-6 py-3 flex items-center gap-3">
+    <a href="#primera-etapa" class="flex-1 text-center py-2.5 rounded-full bg-cenote text-on-cenote text-sm font-medium">Ver lotes</a>
+    <a href="#contacto" class="flex-1 text-center py-2.5 rounded-full border border-hairline text-ink text-sm">Asesor</a>
+  </div>
+
+  <script>
+    (function () {
+      const PRICE_PER_M2 = 4950;
+      const lots = [
+        { id: 'C1-01', area: 284.50, status: 'Disponible' },
+        { id: 'C1-02', area: 298.15, status: 'Apartado' },
+        { id: 'C1-04', area: 312.40, status: 'Disponible' },
+        { id: 'C1-07', area: 328.60, status: 'Disponible' },
+        { id: 'C1-11', area: 276.90, status: 'Disponible' },
+        { id: 'C1-15', area: 345.80, status: 'Disponible' }
+      ];
+
+      let selectedLotId = 'C1-04';
+      let currentFilter = 'all';
+
+      const lotRows = document.getElementById('lot-rows');
+      const fichaTitle = document.getElementById('ficha-title');
+      const fichaStatus = document.getElementById('ficha-status');
+      const fichaArea = document.getElementById('ficha-area');
+      const fichaTotal = document.getElementById('ficha-total');
+      const waPreview = document.getElementById('wa-preview');
+      const ctaWhatsapp = document.getElementById('cta-whatsapp');
+      const copyBtn = document.getElementById('copy-link-btn');
+      const copyLabel = document.getElementById('copy-link-label');
+
+      function formatMXN(val) {
+        return '$' + Math.round(val).toLocaleString('en-US');
+      }
+
+      function renderLots() {
+        const filtered = lots.filter(l => {
+          if (currentFilter === 'disponible') return l.status === 'Disponible';
+          if (currentFilter === 'apartado') return l.status === 'Apartado';
+          return true;
+        });
+
+        lotRows.innerHTML = filtered.map(lot => {
+          const isSelected = lot.id === selectedLotId;
+          const total = lot.area * PRICE_PER_M2;
+          const isAvail = lot.status === 'Disponible';
+          const rowBg = isSelected ? 'bg-canvas' : 'hover:bg-canvas/60';
+          const statusColor = isAvail ? 'text-cenote' : 'text-terracotta';
+
+          return `
+            <button
+              type="button"
+              data-lot-id="${lot.id}"
+              class="lot-row w-full grid grid-cols-12 items-center py-4 px-2 ${rowBg} text-left transition-colors"
+            >
+              <span class="col-span-3 font-mono-art text-sm text-ink">${lot.id}</span>
+              <span class="col-span-3 font-mono-art text-sm text-ink-muted tabular-nums">${lot.area.toFixed(2)} m²</span>
+              <span class="col-span-3 text-right font-mono-art text-sm text-ink tabular-nums">${formatMXN(total)}</span>
+              <span class="col-span-3 text-right text-xs ${statusColor}">${lot.status}</span>
+            </button>
+          `;
+        }).join('');
+
+        document.querySelectorAll('.lot-row').forEach(btn => {
+          btn.addEventListener('click', () => {
+            selectedLotId = btn.getAttribute('data-lot-id');
+            updateFicha();
+            renderLots();
+          });
+        });
+      }
+
+      function updateFicha() {
+        const lot = lots.find(l => l.id === selectedLotId) || lots[0];
+        const total = lot.area * PRICE_PER_M2;
+        fichaTitle.textContent = `Lote ${lot.id}`;
+        fichaStatus.textContent = lot.status;
+        fichaArea.textContent = `${lot.area.toFixed(2)} m²`;
+        fichaTotal.textContent = formatMXN(total);
+
+        const msg = `Hola, me interesa el lote ${lot.id} del coto Chichikán, en Valladolid. ¿Podemos revisar disponibilidad y condiciones?`;
+        waPreview.textContent = `«${msg}»`;
+        ctaWhatsapp.href = `https://wa.me/?text=${encodeURIComponent(msg)}`;
+      }
+
+      document.querySelectorAll('.lot-filter-btn').forEach(btn => {
+        btn.addEventListener('click', () => {
+          currentFilter = btn.getAttribute('data-filter');
+          document.querySelectorAll('.lot-filter-btn').forEach(b => {
+            b.classList.remove('text-ink', 'underline', 'underline-offset-4', 'font-medium');
+            b.classList.add('text-ink-muted');
+          });
+          btn.classList.add('text-ink', 'underline', 'underline-offset-4', 'font-medium');
+          btn.classList.remove('text-ink-muted');
+          renderLots();
+        });
+      });
+
+      copyBtn.addEventListener('click', () => {
+        copyLabel.textContent = 'Copiado';
+        setTimeout(() => { copyLabel.textContent = 'Enlace'; }, 2000);
+      });
+
+      const cotoData = {
+        '01': { title: '01 · Chichikán', badge: 'Primera etapa · En venta', desc: 'Sector derecha arriba. Única etapa abierta con tarifa vigente de $4,950 MXN/m².' },
+        '02': { title: '02 · Nool', badge: 'Próximamente', desc: 'Sector centro arriba. Segunda etapa en preparación.' },
+        '03': { title: '03 · Oxmán', badge: 'Próximamente', desc: 'Sector derecha abajo.' },
+        '04': { title: '04 · Suytún', badge: 'Próximamente', desc: 'Sector centro abajo.' },
+        '05': { title: '05 · Toh', badge: 'Próximamente', desc: 'Sector centro izquierda.' },
+        '06': { title: '06 · Saamal', badge: 'Próximamente', desc: 'Sector izquierda arriba.' },
+        '07': { title: '07 · Zací', badge: 'Próximamente', desc: 'Sector izquierda abajo. Séptima etapa.' }
+      };
+
+      const mapTitle = document.getElementById('map-coto-title');
+      const mapBadge = document.getElementById('map-coto-badge');
+      const mapDesc = document.getElementById('map-coto-desc');
+
+      function selectCoto(code) {
+        const info = cotoData[code];
+        if (!info) return;
+        mapTitle.textContent = info.title;
+        mapBadge.textContent = info.badge;
+        mapDesc.textContent = info.desc;
+      }
+
+      document.querySelectorAll('.coto-node').forEach(node => {
+        node.addEventListener('click', () => selectCoto(node.getAttribute('data-coto')));
+        node.addEventListener('keydown', (e) => {
+          if (e.key === 'Enter' || e.key === ' ') {
+            e.preventDefault();
+            selectCoto(node.getAttribute('data-coto'));
+          }
+        });
+      });
+
+      const modeLandscape = document.getElementById('mode-landscape');
+      const modeTechnical = document.getElementById('mode-technical');
+      const planBg = document.getElementById('plan-bg-landscape');
+
+      modeLandscape.addEventListener('click', () => {
+        planBg.setAttribute('fill', '#F1ECE2');
+        modeLandscape.classList.add('text-ink', 'underline', 'underline-offset-4', 'font-medium');
+        modeTechnical.classList.remove('text-ink', 'underline', 'underline-offset-4', 'font-medium');
+      });
+
+      modeTechnical.addEventListener('click', () => {
+        planBg.setAttribute('fill', '#FFFFFF');
+        modeTechnical.classList.add('text-ink', 'underline', 'underline-offset-4', 'font-medium');
+        modeLandscape.classList.remove('text-ink', 'underline', 'underline-offset-4', 'font-medium');
+      });
+
+      document.querySelectorAll('.mood-filter-btn').forEach(btn => {
+        btn.addEventListener('click', () => {
+          const cat = btn.getAttribute('data-mood-filter');
+          document.querySelectorAll('.mood-filter-btn').forEach(b => {
+            b.classList.remove('text-ink', 'underline', 'underline-offset-4', 'font-medium');
+            b.classList.add('text-ink-muted');
+          });
+          btn.classList.add('text-ink', 'underline', 'underline-offset-4', 'font-medium');
+          btn.classList.remove('text-ink-muted');
+
+          document.querySelectorAll('.mood-card').forEach(card => {
+            if (cat === 'all' || card.getAttribute('data-mood-cat') === cat) {
+              card.classList.remove('hidden');
+            } else {
+              card.classList.add('hidden');
+            }
+          });
+        });
+      });
+
+      renderLots();
+      updateFicha();
+    })();
+  </script>
+
+
+
+</body></html>
